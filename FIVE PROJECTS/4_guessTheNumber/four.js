@@ -25,7 +25,7 @@ guessButton.addEventListener('click', ()=> {
     return;
     }
 
-    if (guessButtonInNumber > 10 || guessButtonInNumber < 0){
+    if (guessButtonInNumber > 10 || guessButtonInNumber < 1){
     disMessage.classList.remove("mfirst","zero","second","third");
     disMessage.classList.add("first");
     disMessage.textContent = `Please Enter a Number between 1-10`;
@@ -43,6 +43,7 @@ guessButton.addEventListener('click', ()=> {
 
 
 })
+
 
 
 
